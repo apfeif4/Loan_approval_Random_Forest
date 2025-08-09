@@ -1,81 +1,68 @@
-Instructions: Click on the raw button in the upper right hand corner of this box. Copy and paste the template into the README.md document on your github. Fill in the titles, information and links where prompted! Feel free to stray a bit to suit your project but try to stick to the format as closely as possible for consistency across DSWG projects.
+---
 
-Project Name
+# 💳 Loan Approval Prediction – Random Forest & Logistic Regression
 
-This project is a part of the Data Science Working Group at Code for San Francisco. Other DSWG projects can be found at the main GitHub repo.
+## 📝 Overview
 
--- Project Status: [Active, On-Hold, Completed]
+This project uses **loan approval data** to build and evaluate models that predict whether a customer will be approved or denied for a loan.
+We apply **Random Forest** and **Logistic Regression** to classify potential customers, helping the bank target pre-approval offers to those most likely to qualify.
 
-Project Intro/Objective
+**Status:** ✅ Completed
 
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+---
 
-Partner
+## 🎯 Objective
 
-[Name of Partner organization/Government department etc..]
-Website for partner
-Partner contact: [Name of Contact], [slack handle of contact if any]
-If you do not have a partner leave this section out
-Methods Used
+A large bank aims to increase its customer base by sending **pre-approval loan offers**.
+The challenge is to target individuals who are **highly likely to be approved**.
+This project develops predictive models using historical customer data to support this goal.
 
-Inferential Statistics
-Machine Learning
-Data Visualization
-Predictive Modeling
-etc.
-Technologies
+---
 
-R
-Python
-D3
-PostGres, MySql
-Pandas, jupyter
-HTML
-JavaScript
-etc.
-Project Description
+## 🛠️ Methods & Tools
 
-(Provide more detailed overview of the project. Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing? Feel free to number or bullet point things here)
+**Methods**
 
-Needs of this project
+* Random Forest Classifier
+* Logistic Regression
+* Data Exploration & Visualization
 
-frontend developers
-data exploration/descriptive statistics
-data processing/cleaning
-statistical modeling
-writeup/reporting
-etc. (be as specific as possible)
-Getting Started
+**Technologies**
 
-Clone this repo (for help see this tutorial).
+* Python (Jupyter Notebook)
+* Pandas, NumPy, Scikit-learn, Matplotlib
 
-Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+---
 
-If using offline data mention that and how they may obtain the data from the froup)
+## 📂 Data Sources
 
-Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
+* Public datasets from [Kaggle](https://www.kaggle.com/) (included in this repository).
 
-etc...
+---
 
-If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here
+## 🚀 Project Workflow
 
-Follow setup [instructions](Link to file)
-Featured Notebooks/Analysis/Deliverables
+1. **Data Acquisition** – Import loan approval dataset from Kaggle.
+2. **Data Cleaning & Preparation** – Handle missing values, encode categorical variables, normalize features.
+3. **EDA (Exploratory Data Analysis)** – Identify patterns and correlations.
+4. **Modeling** – Train and evaluate **Random Forest** and **Logistic Regression** models.
+5. **Model Comparison** – Compare accuracy, precision, recall, and ROC-AUC scores.
+6. **Insights & Reporting** – Document results and provide recommendations.
 
-Notebook/Markdown/Slide Deck Title
-Notebook/Markdown/Slide DeckTitle
-Blog Post
-Contributing DSWG Members
+---
 
-Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)
+## 📈 Deliverables
 
-Other Members:
+* **Jupyter Notebook** containing all code, analysis, and results.
+* **Visualizations** of trends and model performance.
+* **Summary report** for stakeholders with recommendations.
 
-Name	Slack Handle
-[Full Name](https://github.com/[github handle])	@johnDoe
-[Full Name](https://github.com/[github handle])	@janeDoe
-Contact
+---
 
-If you haven't joined the SF Brigade Slack, you can do that here.
-Our slack channel is #datasci-projectname
-Feel free to contact team leads with any questions or if you are interested in contributing!
+## 🔮 Future Enhancements
+
+* Integrate **additional features** such as credit score history or geolocation data.
+* Apply **hyperparameter tuning** for improved accuracy.
+* Experiment with **ensemble methods** and deep learning models.
+
+---
